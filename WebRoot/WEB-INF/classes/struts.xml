@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="user.manage" namespace = "/user" extends="struts-default">
+		<action name="login" class="user.manage.LoginAction">
+			<result name = "logsuccess">/chaxun.jsp</result>
+			<result name = "logfalse">/login.jsp</result>
+		</action>
+		
+		<action name="JjrLoginAction" class="user.manage.JjrLoginAction">
+			<result name = "logsuccess">/chaxun.jsp</result>
+			<result name = "logfalse">/login.jsp</result>
+		</action>
+		
+		<action name="glylogin" class="user.manage.GlyLogin">
+			<result name = "logsuccess">/admin/admin.jsp</result>
+			<result name = "logfalse">/admin/adminlogin.jsp</result>
+		</action>
+		
+		<action name="quit" class="user.manage.Quit">
+			<result name = "quitsuc">/chaxun.jsp</result>
+		</action>
+		
+		<action name="regist" class="user.manage.RegistAction">
+			<result name = "regsuccess">/successPage.jsp</result>
+			<result name = "regfalse">/login.jsp</result>
+		</action>
+		
+		
+		
+		<action name="PrintUserMsg" class="user.manage.PrintUserMsg">
+			<result name = "printsuc">/usermessage.jsp</result>
+		</action>
+		
+		<action name="SendUserMsg" class="user.manage.SendUserMsg">
+			<result name = "sendsuc">/userEdit.jsp</result>
+		</action>
+		
+		<action name="EditUserMsg" class="user.manage.EditUserMsg">
+			<result name = "editsuc">/usermessage.jsp</result>
+			<result name = "editfal">/usermessage.jsp</result>
+		</action>
+		
+		<action name="SendFangMsg" class="fc.yy.SendFangMsg">
+			<result name = "sendsuc">/fwxq.jsp</result>
+		</action>
+		
+		<action name="YyAction" class="fc.yy.YyAction">
+			<result name = "yysuc">/successPage2.jsp</result>
+		</action>
+		
+		<action name="Chaxun" class="fc.manage.Chaxun">
+			<result name = "ChaxunSuc">/chaxuntmp.jsp</result>
+		</action>
+		
+		<action name="YuserlAction" class="fc.yy.YuserlAction">
+			<result name = "userlist">/khxiaoxi.jsp</result>
+		</action>
+		
+		<action name="YjjrlAction" class="fc.yy.YujjlAction">
+			<result name = "jjrlist">/jjrxiaoxi.jsp</result>
+		</action>
+		
+		<action name="YpassedAction" class="fc.yy.YpassedAction">
+			<result name = "passeds">/passeds.jsp</result>
+		</action>
+		
+		<action name="firstload" class="fc.manage.FirstLoad">
+			<result name = "flsuc">/chaxuntmp.jsp</result>
+		</action>
+		
+		<action name="newslist" class="news.list.NewsList">
+			<result name = "newssuc">/index.jsp</result>
+		</action>
+		<action name="gsnewsaction" class="news.list.gsnewsAction">
+			<result name = "newslist">/newslist.jsp</result>
+		</action>
+		<action name="zxnewsaction" class="news.list.zxnewsAction">
+			<result name = "zxlist">/zxlist.jsp</result>
+		</action>
+		<action name="NewsAction" class="gs.zs.NewsAction">
+			<result name = "news">/news.jsp</result>
+			</action>
+		<action name="zxAction" class="fc.zx.zxAction">
+			<result name = "zixun">/zixun.jsp</result>
+		</action>
+		<action name="dongtailist" class="news.list.DongtaiList">
+			<result name = "dongtaisuc">/index.jsp</result>
+		</action>	
+		
+		<action name="newsanddongtai" class="news.list.NewsAndDongtai">
+			<result name = "listsuc">/index.jsp</result>
+		</action>
+
+	
+		<action name="Gkf" class="gs.zs.GkfAction">
+			<result name = "qwerty">/admin/admin.jsp</result>			
+		</action>
+		
+		<action name="Gkfbiao" class="gs.zs.Gkfbiao">
+			<result name = "zsjs">/zsjs.jsp</result>			
+		</action>
+	
+	
+	    <action name="Whf" class="gs.zs.WhfAction">
+			<result name = "asdfgh">/admin/admin.jsp</result>			
+		</action>
+		<action name="Whfbiao" class="gs.zs.Whfbiao">
+			<result name = "biaowhsuc">/Gkf.jsp</result>			
+		</action>
+	
+	    <action name="Newsf" class="gs.zs.NewsfAction">
+			<result name = "fabiaos">/admin/admin.jsp</result>			
+		</action>
+		<action name="Newsfbiao" class="gs.zs.Newsfbiao">
+			<result name = "biaonewssuc">/Gkf.jsp</result>			
+		</action>
+	   
+	   
+	     <action name="Renlif" class="gs.zs.RenlifAction">
+			<result name = "qazwsxedc">/admin/admin.jsp</result>			
+		</action>
+		<action name="Renlifbiao" class="gs.zs.Renlifbiao">
+			<result name = "biaorenlisuc">/Gkf.jsp</result>			
+		</action>
+		
+		<action name="Dtxx" class="Xiaoxi.list.Dtxx">
+			<result name = "dtsuc">/dongtaixx.jsp</result>			
+		</action>
+		<action name="newsxx" class="Xiaoxi.list.newsxx">
+			<result name = "newssuc">/news.jsp</result>			
+		</action>
+		
+		<action name="gaikuang" class="gs.js.Qygk">
+			<result name = "gaikuang">/news.jsp</result>			
+		</action>
+		
+		<action name="fabu" class="fc.zx.Fabu">
+			<result name = "fbsuc">/fabu.jsp</result>
+			<result name = "fbfal">/fabu.jsp</result>			
+		</action>
+		
+		
+		
+		
+		<action name="ZhuanjiaAction" class="fc.zx.ZhuanjiaAction">
+			<result name = "addsuc">/admin/zixunadmin.jsp</result>
+			<result name = "addfal">/admin/zixunadmin.jsp</result>			
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>fangyuan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- ImageReady Slices (fangyuan.jpg) -->
+<table id="__01" width="1280" height="1320" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3">
+			<img src="images/fangyuan1_01.jpg" width="1280" height="355" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="images/fangyuan1_02.jpg" width="169" height="965" alt=""></td>
+		<td>
+			<img src="images/fangyuan1_03.jpg" width="22" height="16" alt=""></td>
+		<td rowspan="2">
+			<img src="images/fangyuan1_04.jpg" width="1089" height="965" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/fangyuan1_05.jpg" width="22" height="949" alt=""></td>
+	</tr>
+</table>
+<!-- End ImageReady Slices -->
+</body>
+</html>
